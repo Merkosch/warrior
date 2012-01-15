@@ -1,0 +1,48 @@
+TODO-List für die APP Wishlist
+
+- Richte Git so ein, dass alle Rechner auf die aktuellen Sourcen zugreifen können. 
+	- Richte alle Rechner ein um an dem Projekt entwickeln zu können. 
+  
+- Die PersonenListe 
+	- Passe den Header an, so dass da ein Addbutton ist der den neue Person Dialog öffnet.
+	- Stelle die Daten in der Liste dar: Foto oder StandardIcon, Name, Letzte Änderung
+	- Bei langem Klick auf das Personelement sollen die Eigenschaften der Person geändert 
+	  oder das Element gelöscht werden können. Recycle dazu den Neue Person Dialog.
+	- Erstelle ein ansprechendes Listendesign. 
+
+- Funktion neue Person. 
+	- Baue einen Dialog der alle Werte annimmt, in die Datenstruktur schreibt 
+	  und in der Liste darstellt. 
+		- Hole ein Bild aus den Alben und nutze es als Personbild (verkleinert) 
+		- Mache ein Bild mit der Kamera und nutze es als Personbild (verkleinert)
+		- Name, Geburtsdatum, Geschlecht, ... 
+	- Mache den Dialog optisch ansprechend.
+	
+- Die Wunschliste der Person, nimmt Wünsche und Eigenschaften auf 
+  (vielleicht sollte man Wünsche und Eigenschaften trennen...)
+	- Passe den Header an, so dass da ein Addbutton ist der den neuer Wunsch Dialog öffnet.
+	- Stelle die Daten in der Liste dar: Foto oder StandardIcon, Bezeichnung, Datum des
+	  Eintrags und die Beschreibung, Anzahl der Bilder, ... 
+	- Bei langem Klick auf das Wunschelement sollen die Eigenschaften geändert 
+	  oder das Element gelöscht werden können. Recycle dazu den Neuer Wunsch Dialog.
+	- Erstelle ein ansprechendes Listendesign. 
+
+- Funktion neuer Wunsch / Eigenschaft. 
+	- Baue einen Dialog der alle Werte annimmt, in die Datenstruktur schreibt 
+	  und in der Liste darstellt. 
+		- Hole ein Bild aus den Alben und nutze es als Wunschbild (verkleinert aber auch groß speichern) 
+		- Mache ein Bild mit der Kamera und nutze es als Wunschbild (verkleinert aber auch groß speichern)
+		- Bezeichnung, Beschreibung, Beliebiges Icon, ....
+		- Unterelemente können beliebig hinzugefügt werden: Ort(Text), Ort(GPS), Preis, Link, Foto, Foto, Foto, ... 
+	- Mache den Dialog optisch ansprechend.
+	
+- Persistenz
+	- Speichere den Zustand der Anwendung wenn sie geschlossen wird, um ihn bei einem
+	  Neustart wieder herzustellen. 
+	- Erstelle eine Funktion, um ein Backup auf der SD Karte anzulegen. 
+	- Erstelle eine Funktion, um eine Person per Mail zu verschicken, die sowohl lesbar
+	  als auch in WishList importierbar ist. 
+	  
+- Neue Wunsch-Funktionen   
+	- Baue Shared-Lists. Mehrere User können eine Liste sehen und verwalten. Wird etwas 
+	  geändert bekommen alle anderen User eine Benachrichtigung.    		
