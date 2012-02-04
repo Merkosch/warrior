@@ -1,7 +1,18 @@
 TODO-List für die APP Wishlist
 
 - Richte Git so ein, dass alle Rechner auf die aktuellen Sourcen zugreifen können. 
-	- Richte alle Rechner ein um an dem Projekt entwickeln zu können. 
+	- Richte alle Rechner ein um an dem Projekt entwickeln zu können.
+	
+	Einrichtung Github auf neuem Rechner HOWTO
+	- Installiere Eclipse und darauf EGIT versuchs mal über den Marketplace
+	- Am Projekt Team-> Share Project (für ein neues Projekt)
+	- Im Package Explorer Import->Projects from Git (zum Auschecken) 
+	- Github.com Loginuser: Merkosch PW: standard light pw ^^ 
+	  Github.com Die Adresse ist: git@github.com:Merkosch/warrior.git
+  	- Erstelle einen RSA Key und füge diesen im Projekt unter Github.com hinzu
+  	  Siehe hier -> http://help.github.com/win-set-up-git/
+  	- Mache den private Key in Eclipse bekannt Pref->General->Network Connections->ssh
+  
   
 - Die PersonenListe 
 	- Passe den Header an, so dass da ein Addbutton ist der den neue Person Dialog öffnet.
