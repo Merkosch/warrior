@@ -12,6 +12,7 @@ TODO-List für die APP Wishlist
   	- Erstelle einen RSA Key und füge diesen im Projekt unter Github.com hinzu
   	  Siehe hier -> http://help.github.com/win-set-up-git/
   	- Mache den private Key in Eclipse bekannt Pref->General->Network Connections->ssh
+  	- ...hat irgendwie nicht so funktioniert... Aber es klappt da ich dir gitbash genommen habe.
   
   
 - Die PersonenListe 
