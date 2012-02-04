@@ -30,15 +30,15 @@ public class Wishlist extends Activity {
         this.peopleListView = (ListView)this.findViewById(R.id.peoplelist);
         this.peopleListView.setAdapter(new PeopleAdapter(Wishlist.this, new ArrayList<String>(),this.restoreData()));
         this.peopleListView.setOnItemClickListener(new OnItemClickListener() {
-			@Override
-			public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-
+			
+        	public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+        		
 				// Lade die Elemente der gewählten Person in einer neuen Liste
 				selectedPerson = position;
 				Intent intent = new Intent(Wishlist.this, Valuelist.class);
 				startActivity(intent);
-				
 			}
+        	
 		});
         
         final Button button = (Button) findViewById(R.id.button1);

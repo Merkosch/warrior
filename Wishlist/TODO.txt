@@ -7,8 +7,12 @@ TODO-List für die APP Wishlist
 	- Installiere Eclipse und darauf EGIT versuchs mal über den Marketplace
 	- Am Projekt Team-> Share Project (für ein neues Projekt)
 	- Im Package Explorer Import->Projects from Git (zum Auschecken) 
+	- Nach dem Auschecken Rechtsklick auf Projekt -> Android Tools -> Fix Project Properties
+	-                     Legen einen Ordner assets im Grundverzeichnis neu an
 	- Github.com Loginuser: Merkosch PW: standard light pw ^^ 
-	  Github.com Die Adresse ist: git@github.com:Merkosch/warrior.git
+	  Github.com Die Adresse ist: 
+	  Wishlist 			-> git@github.com:Merkosch/warrior.git
+	  TheKill2D			-> git@github.com:Merkosch/killer.git
   	- Erstelle einen RSA Key und füge diesen im Projekt unter Github.com hinzu
   	  Siehe hier -> http://help.github.com/win-set-up-git/
   	- Mache den private Key in Eclipse bekannt Pref->General->Network Connections->ssh

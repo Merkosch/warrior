@@ -32,13 +32,14 @@ public class Valuelist extends Activity{
         
         this.elementsList.setAdapter(new ValueAdapter(Valuelist.this, new ArrayList<String>(), eList));
         this.elementsList.setOnItemClickListener(new OnItemClickListener() {
-			@Override
-			public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+			
+        	public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
 
 				//TODO: 
 				// Lade das Element in dem createEdit Dialog um es zu editieren oder anzusehen.
 				Toast.makeText( Valuelist.this, (String)elementsList.getAdapter().getItem(position), Toast.LENGTH_SHORT ).show();
 			}
+        	
         });
         
         final Button button = (Button) findViewById(R.id.button2);
