@@ -13,7 +13,7 @@ TODO-List für die APP Wishlist
   	  Siehe hier -> http://help.github.com/win-set-up-git/
   	- Mache den private Key in Eclipse bekannt Pref->General->Network Connections->ssh
   	- ...hat irgendwie nicht so funktioniert... Aber es klappt da ich dir gitbash genommen habe.
-  
+    - Pushe immer nach origin (unter remotes). Dann geht das auch!
   
 - Die PersonenListe 
 	- Passe den Header an, so dass da ein Addbutton ist der den neue Person Dialog öffnet.
